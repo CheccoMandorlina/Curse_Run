@@ -1,0 +1,13 @@
+services:
+  curse-run:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3007:3007"
+    environment:
+      - PORT=3007
+      - SQLITE_PATH=/data/curse-run.db
+      - DAILY_SEED_SECRET=change-me
+    volumes:
+      - ./server/data:/data
