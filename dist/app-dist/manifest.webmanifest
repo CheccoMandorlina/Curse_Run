@@ -1,0 +1,19 @@
+{
+  "name": "CURSE RUN",
+  "short_name": "CURSE RUN",
+  "id": "/",
+  "scope": "/",
+  "start_url": "/",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "display": "standalone",
+  "background_color": "#050b10",
+  "theme_color": "#0c1822",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
